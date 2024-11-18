@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #e9e4e4;
   margin: 0;
   padding: 20px;
 }
@@ -10,4 +10,42 @@ h1 {
   color: #333;
 }
 
+#listaUsuarios {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
 
+img {
+  width: 100px;
+  position: relative;
+  left: 250px;
+  bottom: 170px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 1px solid rgba(170, 164, 164, 0.422);
+  padding: 15px;
+  gap: 5px;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.personalDetails {
+  border: 1px solid rgba(170, 164, 164, 0.422);
+  padding: 15px;
+  height: 170px;
+}
+
+.companyDetails {
+  position: relative;
+  top: -10px;
+  height: 50px;
+}
